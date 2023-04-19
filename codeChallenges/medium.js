@@ -23,7 +23,6 @@ if (goodDrivingRecord = true && age > 25){
     else if (goodDrivingRecord = true || age > 25) {
         console.log ("Pay full price")
 }
-
     else if (goodDrivingRecord !== true && age < 25) {
         console.log ("Someone else sign for rental")
     }
