@@ -66,6 +66,10 @@ var numQuarters = 5
 var cupsOfFlour = 2;
 var hasSauce = true;
 
+var cupsOfFlour = 5;
+var hasSauce = false;
+
+
 if (cupsOfFlour === 1 && hasSauce === true) {
   console.log("I cannot make pizza");
 } else if (cupsOfFlour === 5 && hasSauce === false){
