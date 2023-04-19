@@ -4,4 +4,12 @@
 // Hint: You may need to do some extra research on the remainder operator (%) 
 // to solve this challenge.
 
+var hours = 2
+var even = %2 
 
+
+if (hours.length % 2 === even) {
+    console.log("even");
+}  else if (hours.length % 2 !== even) {
+    console.log("odd")
+}
